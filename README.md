@@ -55,8 +55,8 @@ Agri-Sense2 Device Creation
 
 ### Creating the Agri-sense 2 Device and Dashboard 
 Create a new Agri-Sense 2 device either by editing the sample application device already created or delete the current device and start from scratch. 
-However now use the agrisense2_template.JSON file included in this repository.
-Similarily upload the Microchip AgriSense Smart Agriculture Demo_dashboard_export.json file when creating a new dashboard for the Agri-Sense2 device
+However now use the /template/agrisense2_template.JSON file included in this repository.
+Similarily upload the /templates/Microchip AgriSense Smart Agriculture Demo_dashboard_export.json file when creating a new dashboard for the Agri-Sense2 device
 
 ### Building and Programming the Agri-Sense2 application
 + Load the Agri_sense2_final project into Arduino IDE and connect the AVR-IoT board via a USB Cable.  
