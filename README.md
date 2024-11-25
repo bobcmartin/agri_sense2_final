@@ -12,7 +12,7 @@ instructions, BOM, schematic and Gerber files for the PCB can be found at the fo
 
 This project combined the AVR-IoT Mini Cellular Board, a collection of I2C based sensors that collected soil moisture, soil temperature, 
 atmospheric pressure, relative humidy and air temperture and then transmitted this data upto the AVNET IoConnect Platform.  
-The entire project is built and programmed using the Arduino 2.x IDE and the onboard programmer included on teh AVR-IoT Mini Cell platform.
+The entire project is built and programmed using the Arduino 2.x IDE and the onboard programmer included on the AVR-IoT Mini Cell platform.
 
 Clone this repository in a suitable working directory and then install all of the software requirements listed below. 
 
@@ -33,7 +33,7 @@ While adding the custom download URL to the File --> Prefences settings in the A
 
 ### Show verbose output during [x]compile [x]upload
 
-Having these boxes checked helps to debug problem in either teh build or upload process
+Having these boxes checked helps to debug problem in either the build or upload process
 
 Two online accounts wil be required to complete the project, one for the SIM card activation and another one for the AVNET IoT Connect account. 
 A free subscription of IoTConnect is available to allow evelaution of this project at no charge. 
@@ -83,7 +83,7 @@ Sketch --> Upload Using Programmer menu selection.
 The normal Upload button assumes a Bootloader is present and will fail.
 
 ## Serial Console Output
-Using Tera Term or equivalent set to 115200 baud connect to the board and perform a hard reset by pressing the small reset button located on the AVR IoT Mini Cell Button located nearest the large square silver chip which is teh Sequans modem. 
+Using Tera Term or equivalent set to 115200 baud connect to the board and perform a hard reset by pressing the small reset button located on the AVR IoT Mini Cell Button located nearest the large square silver chip which is the Sequans modem. 
 Assuming that the Agri-sense2 hardware platform has been properly wired the following serial stream will appear. 
 
 
@@ -140,14 +140,14 @@ CO2 Level 1076  bat voltage 6.9
 [INFO] >: {"d":[{"d":{"frame":2,"ss1_moisture":6,"ss1_temp":25.566086,"ss2_moisture":6,"ss2_temp":24.640045,"ss3_moisture":6,"ss3_temp":22.777756,"ss4_moisture":6,"ss4_temp":25.936096,"pth_temp":22.030001,"pth_pressure":1015.3,"pth_humidity":46.501678,"bat_voltage":6.9389491,"CO2_level":1076}}]}
 
 
-The same data stream should also be appearing on teh IoT Conenct dashboard at this time.
+The same data stream should also be appearing on the IoT Conenct dashboard at this time.
 
 ## Summary
 For further code commentary including debugging hints please refer to the 
 
 [Agri-sense 2](https://www.hackster.io/wizardofmake/agri-sense-2-fab593) project on Hackster IO.
 
-There are some simple modifications to the main application that can be used to publish synthetic data to teh IoT Connect dashboard in the case of not having the entire Agri-sense2 hardware system available.
+There are some simple modifications to the main application that can be used to publish synthetic data to the IoT Connect dashboard in the case of not having the entire Agri-sense2 hardware system available.
 
 
 
