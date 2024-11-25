@@ -82,7 +82,7 @@ void setup()
 {
  
   Log.begin(115200);
-  Log.raw("====== Agrisense 2 Core ======");
+  Log.raw("====== Agri-sense 2 Core ======");
 
   frame_ptr = &data_frame;
   frame_ptr->frame_count = 0UL;
