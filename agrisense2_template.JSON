@@ -1,0 +1,117 @@
+{
+    "code": "agri",
+    "name": "agrisense2",
+    "authType": 2,
+    "attributes": [
+        {
+            "name": "frame",
+            "type": "INTEGER",
+            "description": "",
+            "unit": "",
+            "aggregateTypes": []
+        },
+        {
+            "name": "ss1_moisture",
+            "type": "INTEGER",
+            "description": "",
+            "unit": "%",
+            "aggregateTypes": []
+        },
+        {
+            "name": "ss1_temp",
+            "type": "DECIMAL",
+            "description": "",
+            "unit": "C",
+            "aggregateTypes": []
+        },
+        {
+            "name": "ss2_moisture",
+            "type": "DECIMAL",
+            "description": "",
+            "unit": "%",
+            "aggregateTypes": []
+        },
+        {
+            "name": "ss2_temp",
+            "type": "DECIMAL",
+            "description": "",
+            "unit": "C",
+            "aggregateTypes": []
+        },
+        {
+            "name": "ss3_moisture",
+            "type": "DECIMAL",
+            "description": "",
+            "unit": "%",
+            "aggregateTypes": []
+        },
+        {
+            "name": "ss3_temp",
+            "type": "DECIMAL",
+            "description": "",
+            "unit": "C",
+            "aggregateTypes": []
+        },
+        {
+            "name": "ss4_moisture",
+            "type": "DECIMAL",
+            "description": "",
+            "unit": "%",
+            "aggregateTypes": []
+        },
+        {
+            "name": "ss4_temp",
+            "type": "DECIMAL",
+            "description": "",
+            "unit": "C",
+            "aggregateTypes": []
+        },
+        {
+            "name": "pth_temp",
+            "type": "DECIMAL",
+            "description": "",
+            "unit": "C",
+            "aggregateTypes": []
+        },
+        {
+            "name": "pth_pressure",
+            "type": "DECIMAL",
+            "description": "",
+            "unit": "hPa",
+            "aggregateTypes": []
+        },
+        {
+            "name": "pth_humidity",
+            "type": "DECIMAL",
+            "description": "",
+            "unit": "%",
+            "aggregateTypes": []
+        },
+        {
+            "name": "bat_voltage",
+            "type": "DECIMAL",
+            "description": "",
+            "unit": "v",
+            "aggregateTypes": []
+        },
+        {
+            "name": "CO2_level",
+            "type": "INTEGER",
+            "description": "",
+            "unit": "",
+            "aggregateTypes": []
+        }
+    ],
+    "messageVersion": "2.1",
+    "msgCode": "6FJYKMM",
+    "greenGrass": "0",
+    "wireless": "0",
+    "properties": {
+        "description": null,
+        "dataFrequency": "5",
+        "fileSupport": false
+    },
+    "_meta": {
+        "version": "2.0"
+    }
+}
