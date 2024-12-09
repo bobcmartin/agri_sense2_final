@@ -1,5 +1,5 @@
 
-# Agri-sense2 README.md
+# Agri-Sense2 README.md
 
 ## Summary
 
