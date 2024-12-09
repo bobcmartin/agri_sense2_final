@@ -143,15 +143,20 @@ void print_scan(void)
 
 }
 
+
+
+#define ADC_SCALE 4.02463     // 3.3k 
+#define ADC_REF   3.3
+
 void scan_bat_voltage(void)
 {
 
   unsigned int  vbat_raw;
   float vbat;
   
-  analogReference(0x05);
+  analogReference(0x05);                  // use VDD (3.3V) as the reference
   vbat_raw = analogRead(PIN_PD3);
-  vbat = (float)(vbat_raw)/1024.0 * 4.02463 * 3.3;
+  vbat = (float)(vbat_raw)/1024.0 * ADC_SCALE * ADC_REF;
   frame_ptr->bat_voltage = vbat;          
 
 }
